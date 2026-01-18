@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who wrote your constitution</title>
+    <link rel="icon" type="image/png" href="https://flagcdn.com/16x12/in.png">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <!-- GeoApify Autocomplete CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@geoapify/geocoder-autocomplete@1.7.0/styles.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="preheader"></header>
+        <!-- Header -->
+        <header class="header">
+            <h1>Who wrote your constitution</h1>
+            <p class="subtitle">The pioneers of modern Indian polity</p>
+        </header>
+        <header class="postheader"></header>
+
+        <!-- Main Content -->
+        <div class="content-wrapper">
+            <!-- Left Panel (80%) -->
+            <div class="left-panel">
+                <!-- Search Box -->
+                <div class="search-container">
+                    <div id="geoapify-autocomplete" class="autocomplete-container"></div>
+                </div>
+
+                <!-- Map -->
+                <div id="map" class="map-container"></div>
+
+                <!-- Loading Spinner -->
+                <div id="loading" class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Processing location...</p>
+                </div>
+            </div>
+
+            <!-- Right Panel (20%) -->
+            <div class="right-panel">
+                <div class="info-box">
+                    <div id="info-text" class="info-text">
+                        <strong style="color: #2a5298; font-size: 15px; display: block; margin-bottom: 10px;">
+                            Constituent Assembly of India
+                        </strong>
+                        <p>The Constitution of India was written by a Constituent Assembly comprising of 389 members elected from various parts of India. These members represented diverse regions, political parties, and communities across the country.</p>
+                        <div class="quote"> <blockquote><p>Search any location in the textbox on the right to know who represented the location in the Constituent Assembly.</p></blockquote></div>
+                        <strong style="color: #2a5298; font-size: 15px; display: block; margin-bottom: 10px;">
+                            <p>Significant Contributors</p>
+                        </strong>
+                        <p> <b>B.R. Ambedkar</b>: He was the Chairman of the Drafting Committee and is often referred to as the principal architect of the Constitution. Ambedkar played a crucial role in shaping the document to ensure it enshrined principles of justice, equality, and liberty.</p>
+                        <p> <b>B.N. Rau</b>: Served as the constitutional advisor and prepared the preliminary draft of the Constitution. His work laid the foundation for the final document.</p>
+                        <p> <b>Surendra Nath Mukherjee</b>: Acted as the chief draftsman, helping to put the Constitution into legislative form.</p>
+                        <p><b>Prem Behari Narain Raizada</b>: He was the calligrapher who handwrote the original Constitution in both English and Hindi, using a flowing italic style.</p>
+                        <p> <br/>Other key figures included leaders like Jawaharlal Nehru, Sardar Vallabhbhai Patel, and Maulana Abul Kalam Azad. The assembly's composition aimed to reflect the pluralistic society of India, incorporating voices from various backgrounds.</p>
+                    </div>
+                    <div id="members-count" class="members-count"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p><a href="https://www.nikhilkulkarni.in/search/label/MiddleEast%26IndiaSeries" target="_blank">Read more thoughts about the Indian constitution</a></p>
+            <p><a href="https://www.nikhilkulkarni.com" target="_blank">&#x1F310; nikhilkulkarni.com</a> | <a href="https://www.nikhilkulkarni.in" target="_blank">Blog <i class="fas fa-newspaper"></i> nikhilkulkarni.in</a> | <a href="https://twitter.com/kulkarninikhil" target="_blank">𝕏 @kulkarninikhil</a> | <a href="https://linkedin.com/in/nkulkarni" target="_blank"><i class="fab fa-linkedin"></i> @nkulkarni</a></p>
+            <p>© Nikhil Kulkarni | All data obtained from public sources</p>
+        </footer>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- GeoApify Autocomplete JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@geoapify/geocoder-autocomplete@1.7.0/index.min.js"></script>
+    
+    <!-- Application JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>

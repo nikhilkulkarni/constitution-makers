@@ -1,0 +1,214 @@
+{
+  "states": [
+    {
+      "name": "Jammu and Kashmir",
+      "oldName": "Jammu and Kashmir",
+      "members": 4,
+      "explanation": "Part of J&K is now in Pakistan due to occupation by Pakistani forces in 1948, however the erstwhile united J&K including Ladakh was represented in the Constituent Assembly."
+    },
+    {
+      "name": "Ladakh",
+      "oldName": "Jammu and Kashmir",
+      "members": 4,
+      "explanation": "Ladakh became a Union territory in 2019, being separated from J&K. However, Ladakh was represented in the Constituent Assembly via J&K's representatives on behalf of the entire state, including Ladakh."
+    },
+    {
+      "name": "Himachal Pradesh",
+      "oldName": "Himachal Pradesh, Patiala and East Punjab States Union, Punjab (Now East Punjab)",
+      "members": 20,
+      "explanation": "Himachal Pradesh was created in 1950 from multiple hill states. Some were part of Patiala and East Punjab States Union (PEPSU) while some parts of the then East Punjab were transferred to Himachal Pradesh in 1956. Himachal Pradesh thus had representation through PEPSU's and East Punjab's representatives in the Constituent Assembly."
+    },
+    {
+      "name": "Punjab",
+      "oldName": "Patiala and East Punjab States Union, Punjab (Now East Punjab)",
+      "members": 19,
+      "explanation": "Present Day Punjab in India was referred to as East Punjab and had direct representation in the Constituent Assembly."
+    },
+    {
+      "name": "Haryana",
+      "oldName": "Patiala and East Punjab States Union, Punjab (Now East Punjab)",
+      "members": 19,
+      "explanation": "Haryana was carved out after the linguistic reorganisation of Punjab on 1 November 1966. It didn't have separate representation in the Constituent Assembly, but the territories that formed it were covered under East Punjab's representatives who participated in framing the Constitution."
+    },
+    {
+      "name": "Delhi",
+      "oldName": "Delhi",
+      "members": 1,
+      "explanation": "Delhi was directly represented in the Constituent Assembly."
+    },
+    {
+      "name": "Uttarakhand",
+      "oldName": "United Provinces, United Provinces States",
+      "members": 60,
+      "explanation": "Uttarakhand was officially carved out from Uttar Pradesh in 2000, however Uttarakhand had indirect representation through United Provinces/Uttar Pradesh's Constituent Assembly members."
+    },
+    {
+      "name": "Uttar Pradesh",
+      "oldName": "United Provinces, United Provinces States",
+      "members": 60,
+      "explanation": "Major portions of present day Uttar Pradesh were back then referred to as United Provinces which had a direct and heaviest representation in the Constituent Assembly. In addition, the princely states of Rampur and Banares also sent direct representatives to the Constituent Assembly."
+    },
+    {
+      "name": "Rajasthan",
+      "oldName": "Ajmer-Merwara, Rajputana",
+      "members": 12,
+      "explanation": "Present day Rajasthan was formed through a gradual process of merging multiple princely states during and after the Constituent Assembly period. The princely states that formed Rajasthan did send individual representatives and while the Constituent Assembly was still functioning, these states began merging to create what would become Rajasthan. The Rajputana state, Ajmer, Mewar, and Bikaner princely states all sent representatives to the Constituent Assembly."
+    },
+    {
+      "name": "Bihar",
+      "oldName": "Bihar",
+      "members": 38,
+      "explanation": "Bihar was directly represented in the Constituent Assembly."
+    },
+    {
+      "name": "Jharkhand",
+      "oldName": "Bihar",
+      "members": 38,
+      "explanation": "Jharkhand was officially created in 2000 comprising of 18 districts carved from southern Bihar. Jharkhand did have indirect representation in the Constituent Assembly through Bihar's representatives."
+    },
+    {
+      "name": "Gujarat",
+      "oldName": "Bombay States, Kutch, Saurashtra",
+      "members": 14,
+      "explanation": "The Gujarat region was part of the Bombay Province (Bombay Presidency) of British India while large parts of present-day Gujarat consisted of numerous princely states (Saurashtra, Baroda, and other Kathiawar and eastern Gujarat states). So Gujarat did have representation in the Constituent Assembly through Bombay Province and the individual princely states."
+    },
+    {
+      "name": "Madhya Pradesh",
+      "oldName": "Bhopal, Central Provinces States, Central Provinces and Berar, Madhya Bharat, Vindhya Pradesh",
+      "members": 34,
+      "explanation": "Major portions of present day Madhya Pradesh were back then referred to as Central Provinces and Berar which had a direct representation in the Constituent Assembly. Certain parts of the erstwhile Central Provinces and Berar today are part of Maharashtra, specifically Vidarbha area, and some form present day Chhattisgarh. Bhopal, present capital city of Madhya Pradesh was a key princely state in the region, and also sent its own representatives to the Constituent Assembly."
+    },
+    {
+      "name": "Chhattisgarh",
+      "oldName": "Central Provinces and Berar",
+      "members": 19,
+      "explanation": "Chhattisgarh was officially separated from Madhya Pradesh in 2000, however Chhattisgarh did have indirect representation in the Constituent Assembly through Central Provinces and Berar."
+    },
+    {
+      "name": "West Bengal",
+      "oldName": "Bengal, Cooch Behar",
+      "members": 26,
+      "explanation": "Present day West Bengal was had a direct representation in the Constituent Assembly. In addition, a princely state Cooch Behar was also merged into present day West Bengal."
+    },
+    {
+      "name": "Assam",
+      "oldName": "Assam",
+      "members": 8,
+      "explanation": "Colonial Assam was an amalgamation of the present day state of Assam and several other regions from North eastern belt of India. Assam itself was well represented directly in the Constituent Assembly."
+    },
+    {
+      "name": "Manipur",
+      "oldName": "Assam, Tripura and Manipur",
+      "members": 9,
+      "explanation": "Manipur and Tripura were princely states that joined India after independence, but were not granted full statehood until 1972. During the Constituent Assembly period (1946-1950), they existed as smaller political units and may not have had formal representation."
+    },
+    {
+      "name": "Meghalaya",
+      "oldName": "Assam",
+      "members": 8,
+      "explanation": "Meghalaya was a part of the erstwhile state of Assam and was represented via Assam state's representatives."
+    },
+    {
+      "name": "Mizoram",
+      "oldName": "Assam",
+      "members": 8,
+      "explanation": "Mizoram formed as a separate state only in 1987. However, during the Constituent Assembly period, it was the Mizo Hills District within Assam. So it was represented via Assam state's representatives."
+    },
+    {
+      "name": "Tripura",
+      "oldName": "Assam, Tripura and Manipur",
+      "members": 9,
+      "explanation": "Manipur and Tripura were princely states that joined India after independence, but were not granted full statehood until 1972. During the Constituent Assembly period (1946-1950), they existed as smaller political units and may not have had formal representation."
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "oldName": "Assam",
+      "members": 8,
+      "explanation": "Arunachal Pradesh was called the North-East Frontier Agency (NEFA), a tribal administered region within Assam during the Constituent Assembly period. It was represented via Assam state's representatives."
+    },
+    {
+      "name": "Sikkim",
+      "oldName": "No old state",
+      "members": 0,
+      "explanation": "Sikkim was an independent kingdom during the Constituent Assembly period, and was not even a part of British India and remained independent until 1975. Hence, it was not represented in the Constituent assembly."
+    },
+    {
+      "name": "Odisha",
+      "oldName": "Orissa, Orissa States",
+      "members": 13,
+      "explanation": "Present day Odisha was called Orissa back then and had a direct representation in the Constituent Assembly."
+    },
+    {
+      "name": "Maharashtra",
+      "oldName": "Bombay, Bombay States, Central Provinces States, Central Provinces and Berar",
+      "members": 50,
+      "explanation": "Large parts of then Bombay Presidency became a part of present day Maharashtra (others became Gujarat). Further, the present day Vidarbha belt of Maharashtra separated from CP & Berar (rest constituted the state of Madhya Pradesh), into Maharashtra. Maharashtra had one of the loudest voices in the Constituent Assembly as Dr B R Ambedkar who was the chairman of the drafting committee."
+    },
+    {
+      "name": "Goa",
+      "oldName": "No old state",
+      "members": 0,
+      "explanation": "Goa had no representation in the Constituent Assembly because it was not part of India between 1946 and 1951 (when the Constituent Assembly met) and remained under Portuguese colonial rule until 1960."
+    },
+    {
+      "name": "Karnataka",
+      "oldName": "Coorg, Mysore",
+      "members": 8,
+      "explanation": "Karnataka had representation in the Constituent Assembly through multiple entities: Mysore State (as a princely state) and Coorg."
+    },
+    {
+      "name": "Tamil Nadu",
+      "oldName": "Madras, Madras States",
+      "members": 58,
+      "explanation": "Tamil Nadu had strong representation in the Constituent Assembly through the Madras Presidency/Province, which was a major British Indian province and included present-day Tamil Nadu, Kerala, parts of Andhra Pradesh, and parts of Karnataka."
+    },
+    {
+      "name": "Kerala",
+      "oldName": "Travancore-Cochin",
+      "members": 8,
+      "explanation": "Kerala had representation in the Constituent Assembly through two separate princely states: Travancore and Cochin, which were independent kingdoms that acceded to India."
+    },
+    {
+      "name": "Telangana",
+      "oldName": "Hyderabad",
+      "members": 0,
+      "explanation": "Telangana had no direct representation in the Constituent Assembly because it was largely a part of then Hyderabad State, which did not join India (or Pakistan) during the constitution-making period. After independence, Telangana remained a part of the Andhra Pradesh state until 2014, when Telangana was formed comprising 10 districts from Andhra Pradesh."
+    },
+    {
+      "name": "Andhra Pradesh",
+      "oldName": "Madras States",
+      "members": 1,
+      "explanation": "Present Day Andhra Pradesh was partly the erstwhile Hyderabad state, and partly part of the Madras Presidency. Hyderabad State did not join the Indian Union until September 1948, well after the Constituent Assembly's formation in December 1946, hence no representatives were part of the Constituent Assembly from Hyderabad. However, some parts of Andhra Pradesh were represented through the Madras Presidency."
+    },
+    {
+      "name": "Chandigarh",
+      "oldName": "Punjab (Now East Punjab)",
+      "members": 16,
+      "explanation": "Chandigarh as a city was conceptualized after independence and established in then Punjab in 1966. Hence, it has indirect representation in the Constituent Assembly via East Punjab's representatives."
+    },
+    {
+      "name": "Puducherry",
+      "oldName": "No old state",
+      "members": 0,
+      "explanation": "Puducherry had no representation in the Constituent Assembly because it was not part of India between 1946 and 1951 (when the Constituent Assembly met) and remained under French colonial rule until 1954."
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "oldName": "No old state",
+      "members": 0,
+      "explanation": "Dadra and Nagar Haveli, and Daman and Diu, had no representation in the Constituent Assembly because they were not part of India between 1946 and 1951 (when the Constituent Assembly met) and remained under Portuguese colonial rule until 1960."
+    },
+    {
+      "name": "Andaman and Nicobar Islands",
+      "oldName": "No old state",
+      "members": 0,
+      "explanation": "The Andaman and Nicobar Islands were part of British India, administered as a separate territory (Chief Commissioner's territory) by the British. However, unlike Delhi, Ajmer-Merwara, and Coorg (the 3 Chief Commissioner's provinces that sent representatives), Andaman and Nicobar Islands did not send any delegates. The territory was at that time too remote, sparsely populated, and strategically sensitive to the British such that the British tried to retain these as their own overseas territories but finally relented. However, by that time, the Constituent Assembly was already functional and hence no representation from A&N was ever sent."
+    },
+    {
+      "name": "Lakshadweep",
+      "oldName": "No old state",
+      "members": 0,
+      "explanation": "Lakshadweep (Laccadive, Minicoy, and Amindivi Islands) had NO direct representation in the Constituent Assembly. Lakshadweep was administered as part of the Madras Presidency's districts under British India, however it was too remote, sparsely populated, and lacked political organization for separate representation."
+    }
+  ]
+}
