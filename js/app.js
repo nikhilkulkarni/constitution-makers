@@ -364,44 +364,52 @@ function openMembersModal(oldName, stateName) {
     
     // Set the state name in the modal header
     modalStateNameElement.textContent = stateName;
-    
+
+    //Splitting oldName into multiple state names
+    const provinceList = oldName.split(',').map(name => name.trim());
+    console.log('Found', provinceList.length, ' old states.');
+
     // Get members for this province
-    const members = membersData[oldName] || [];
+    var i=0;
+    provinceList.forEach(oldNameStr => {
+     console.log(++i, '. Processing members for', oldNameStr)
+     const members = membersData[oldNameStr] || [];
     
-    console.log('Found members:', members.length);
-    
-    // Clear previous content
-    membersList.innerHTML = '';
-    
-    if (members.length === 0) {
-        membersList.innerHTML = '<div class="no-members-message">No members found for this region.</div>';
-    } else {
-        // Sort members alphabetically by name
-        const sortedMembers = members.sort((a, b) => a.name.localeCompare(b.name));
+        console.log('Found members:', members.length);
         
-        sortedMembers.forEach(member => {
-            const memberItem = document.createElement('div');
-            memberItem.className = 'member-item';
+        // Clear previous content
+        membersList.innerHTML = '';
+        
+        if (members.length === 0) {
+            membersList.innerHTML = '<div class="no-members-message">No members found for this region.</div>';
+        } else {
+            // Sort members alphabetically by name
+            const sortedMembers = members.sort((a, b) => a.name.localeCompare(b.name));
             
-            // Build member HTML
-            let memberHTML = `<div class="member-name">${member.name}</div>`;
-            
-            // Add summary if available
-            if (member.summary) {
-                memberHTML += `<div class="member-summary">${member.summary}</div>`;
-            }
-            
-            // Add "Read more" link if URL is available
-            if (member.url) {
-                memberHTML += `<a href="${member.url}" target="_blank" class="member-link">Read more →</a>`;
-            }
-            
-            memberItem.innerHTML = memberHTML;
-            membersList.appendChild(memberItem);
-        });
-    }
+            sortedMembers.forEach(member => {
+                const memberItem = document.createElement('div');
+                memberItem.className = 'member-item';
+                
+                // Build member HTML
+                let memberHTML = `<div class="member-name">${member.name}</div>`;
+                
+                // Add summary if available
+                if (member.summary) {
+                    memberHTML += `<div class="member-summary">${member.summary}</div>`;
+                }
+                
+                // Add "Read more" link if URL is available
+                if (member.url) {
+                    memberHTML += `<a href="${member.url}" target="_blank" class="member-link">Read more →</a>`;
+                }
+                
+                memberItem.innerHTML = memberHTML;
+                membersList.appendChild(memberItem);
+            });
+        }   
+    });
     
-    // Show the modal
+    -// Show the modal
     modal.classList.add('active');
     
     // Focus on the modal for accessibility
