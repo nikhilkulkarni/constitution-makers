@@ -618,6 +618,7 @@ function updateStateInfo(stateName) {
                 <div class="number" onclick="openMembersModal('${stateData.oldName}', '${stateName}')" style="cursor: pointer;">
                     ${stateData.members}
                 </div>
+                <div style="color: #999; font-size: 12px; font=-weight: 0;">Click to view a list of members</div>
             `;
         } else {
             membersCountElement.innerHTML = `
