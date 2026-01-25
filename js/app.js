@@ -421,8 +421,8 @@ function openMembersModal(oldName, stateName) {
             });
             // 🔹 Reset scroll position inside the modal content
 
-            if (membersList) {
-                membersList.parentElement.scrollTop = 0;
+            if (document.getElementById('modal-body')) {
+                document.getElementById('modal-body').scrollTop();
             }
         }   
     });
