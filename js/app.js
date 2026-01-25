@@ -259,12 +259,12 @@ function drawMap() {
         },
         onEachFeature: function(feature, layer) {
             const stateName = feature.properties.name;
-            
+            console.log("feature.properties");
             // Add click event
             layer.on('click', function(e) {
             // Stop event propagation so it doesn't trigger map click
                 L.DomEvent.stopPropagation(e);
-                selectState(stateName);
+                //selectState(stateName);
             });
             
             // Add hover effect
