@@ -115,6 +115,12 @@
       "explanation": "Mizoram formed as a separate state only in 1987. However, during the Constituent Assembly period, it was the Mizo Hills District within Assam. So it was represented via Assam state's representatives."
     },
     {
+      "name": "Nagaland",
+      "oldName": "Assam",
+      "members": 8,
+      "explanation": "Nagaland formed as a separate state only in 1962. However, during the Constituent Assembly period, it was the Naga Hills region within Assam. So it was represented via Assam state's representatives."
+    },
+    {
       "name": "Tripura",
       "oldName": "Assam, Tripura and Manipur",
       "members": 9,
