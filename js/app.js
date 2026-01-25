@@ -328,7 +328,7 @@ function initializeAutocomplete() {
         
         // Handle selection
         autocompleteInstance.on('select', (location) => {
-            console.log('Location selected:', location);
+            //console.log('Location selected:', location);
             handleLocationSelected(location);
         });
         
@@ -683,7 +683,7 @@ function selectState(stateName, location) {
  * This is used when user selects from autocomplete (either manual or map click)
  */
 function selectStateWithIndiaZoom(stateName, location) {
-    console.log('Selecting state with India zoom:', stateName);
+    //console.log('Selecting state with India zoom:', stateName);
     
     currentHighlightedState = stateName;
     
@@ -696,7 +696,7 @@ function selectStateWithIndiaZoom(stateName, location) {
     // NEW: Zoom to India view (default) instead of state bounds
     map.setView([20.5937, 78.9629], 5);
     
-    console.log('Map zoomed to India view with', stateName, 'highlighted');
+    //console.log('Map zoomed to India view with', stateName, 'highlighted');
 }
 
 /**
