@@ -366,7 +366,7 @@ async function searchLocations(query, suggestionsContainer, input) {
  * Open the members modal and display members for a given province
  */
 function openMembersModal(oldName, stateName) {
-    console.log('Opening members modal for:', oldName, stateName);
+    //console.log('Opening members modal for:', oldName, stateName);
     
     const modal = document.getElementById('members-modal');
     const modalStateNameElement = document.getElementById('modal-state-name');
@@ -377,18 +377,16 @@ function openMembersModal(oldName, stateName) {
 
     //Splitting oldName into multiple state names
     const provinceList = oldName.split(',').map(name => name.trim());
-    console.log('Found', provinceList.length, ' old states.');
+    //console.log('Found', provinceList.length, ' old states.');
 
     // Clear previous content
     membersList.innerHTML = '';
 
     // Get members for this province
-    var i=0;
     provinceList.forEach(oldNameStr => {
-     console.log(++i, '. Processing members for', oldNameStr)
      const members = membersData[oldNameStr] || [];
     
-        console.log('Found members:', members.length);
+        //console.log('Found members:', members.length);
         
         if (members.length === 0) {
             membersList.innerHTML = '<div class="no-members-message">No members found for this region.</div>';
@@ -399,7 +397,7 @@ function openMembersModal(oldName, stateName) {
             sortedMembers.forEach(member => {
                 const memberItem = document.createElement('div');
                 memberItem.className = 'member-item';
-                
+
                 // Build member HTML
                 let memberHTML = `<div class="member-name">${member.name}</div>`;
                 
@@ -419,11 +417,6 @@ function openMembersModal(oldName, stateName) {
                 memberItem.innerHTML = memberHTML;
                 membersList.appendChild(memberItem);
             });
-            // 🔹 Reset scroll position inside the modal content
-
-            if (document.getElementById('modal-body')) {
-                document.getElementById('modal-body').scrollTop = 0;
-            }
         }   
     });
     
@@ -432,13 +425,14 @@ function openMembersModal(oldName, stateName) {
     
     // Focus on the modal for accessibility
     modal.focus();
+    document.getElementById('modal-body').scrollTop = 0;
 }
 
 /**
  * Close the members modal
  */
 function closeMembersModal() {
-    console.log('Closing members modal');
+    //console.log('Closing members modal');
     
     const modal = document.getElementById('members-modal');
     modal.classList.remove('active');
