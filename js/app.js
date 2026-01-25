@@ -420,8 +420,9 @@ function openMembersModal(oldName, stateName) {
                 membersList.appendChild(memberItem);
             });
             // 🔹 Reset scroll position inside the modal content
+
             if (membersList) {
-                membersList.scrollTop = 0;
+                membersList.parentElement.scrollTop = 0;
             }
         }   
     });
